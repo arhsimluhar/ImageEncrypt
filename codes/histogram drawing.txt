@@ -1,0 +1,10 @@
+input = imread('C:\Users\MAHE_MSK\Desktop\ImageEncryptionGUI\encoded.jpg');
+Red = input(:,:,1);
+Green = input(:,:,2);
+Blue = input(:,:,3);
+[yRed, x] = imhist(Red);
+[yGreen, x] = imhist(Green);
+[yBlue, x] = imhist(Blue);
+figure(1);plot(x, yRed, 'Red', x, yGreen, 'Green', x, yBlue, 'Blue');
+input=rgb2gray(input);
+figure(2);imhist(input);

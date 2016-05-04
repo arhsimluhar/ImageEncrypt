@@ -1,0 +1,28 @@
+Transposition encryption technique:
+
+This program helps you to encrypt any text file using transposition encryption technique.
+Steps:
+
+1.	save the .rar file in your hard drive.
+2.	Exert the file transposition_cipher.rar.
+3.	Open the Transposition_encryption.m file in matlab
+4.	Run this file and change the directory.
+5.	Go to the command window.
+6.	Type  Transposition_encryption(6).
+Where ‘6’ in the brackets is the order of the matrix which is used by transposition encryption technique.
+ 
+7.	Press enter.
+Now your encrypt file is in the same directory. Name as trans_encryp.txt check this.
+
+
+For decryption:
+
+In the m-file change the input address file plain.txt  with  trans_encryp.txt and a new file name at the place of ouput file as ‘new.txt’.
+
+After this repeat the steps from 4 to 7 and you get your original data back in ‘new.txt’ file in the same directory.
+
+Thanks.
+Ajmer Singh 
+ 
+
+
